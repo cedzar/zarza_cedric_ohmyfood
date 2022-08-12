@@ -1,0 +1,50 @@
+/* Utilities */
+$pri-clr: #9356DC;
+$sec-clr: #FF79DA;
+$ter-clr: #99E2D0;
+
+.flex-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    position: relative;
+    .back-index{
+        width: 45px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+}
+.rest-top-img{
+    background-image: url(/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    height: 180px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Titre Restaurant & like */
+.ttl-like{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12%;
+    i{
+        font-size: 20px;
+    }
+}
