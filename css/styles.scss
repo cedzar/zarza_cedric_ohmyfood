@@ -19,6 +19,7 @@ body{
 $pri-clr: #9356DC;
 $sec-clr: #FF79DA;
 $ter-clr: #99E2D0;
+$grey-cont-clr: #eaeaea;
 
 .f-size{
 
@@ -83,6 +84,7 @@ $ter-clr: #99E2D0;
     transition: 0.5s;
     position: relative;
     z-index: 1;
+    box-sizing: border-box;
     p{
         padding: 2px;
         color: white;
@@ -310,9 +312,13 @@ $ter-clr: #99E2D0;
     padding-right: 20px;
     padding-left: 20px;
     gap: 25px;
-    background-color: #eaeaea;
+    background-color: $grey-cont-clr;
     margin-top: 60px;
     padding-bottom: 60px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
 }
 .rest-title{
     h1{

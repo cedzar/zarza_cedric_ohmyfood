@@ -2,6 +2,36 @@
 $pri-clr: #9356DC;
 $sec-clr: #FF79DA;
 $ter-clr: #99E2D0;
+$grey-cont-clr: #eaeaea;
+
+.card-uni{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px 0 15px 0;
+    box-shadow: 0 7px 10px rgb(0 0 0 / 15%);
+    color: black;
+    .card-title{
+        font-weight: bold;
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+    .d-p-flex{
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        .card-desc{
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            font-size: 14px;
+        }
+        .card-price{
+            font-weight: bold;
+            font-size: 14px;
+        }
+    }
+}
 
 .flex-logo{
     display: flex;
@@ -39,6 +69,15 @@ $ter-clr: #99E2D0;
 }
 
 /* Titre Restaurant & like */
+.pages-container{
+    background-color: $grey-cont-clr;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    a{
+        text-decoration: none;
+    }
+}
 .ttl-like{
     display: flex;
     justify-content: center;
@@ -47,4 +86,15 @@ $ter-clr: #99E2D0;
     i{
         font-size: 20px;
     }
+}
+.section-cont{
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    a{
+        text-decoration: none;
+    }
+}
+.mar-btn{
+    text-align: -webkit-center;
 }

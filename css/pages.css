@@ -1,4 +1,33 @@
 /* Utilities */
+.card-uni {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 15px 0 15px 0;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15);
+  color: black;
+}
+.card-uni .card-title {
+  font-weight: bold;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+.card-uni .d-p-flex {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.card-uni .d-p-flex .card-desc {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.card-uni .d-p-flex .card-price {
+  font-weight: bold;
+  font-size: 14px;
+}
+
 .flex-logo {
   display: flex;
   flex-direction: row;
@@ -35,6 +64,16 @@
 }
 
 /* Titre Restaurant & like */
+.pages-container {
+  background-color: #eaeaea;
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+.pages-container a {
+  text-decoration: none;
+}
+
 .ttl-like {
   display: flex;
   justify-content: center;
@@ -43,4 +82,17 @@
 }
 .ttl-like i {
   font-size: 20px;
+}
+
+.section-cont {
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.section-cont a {
+  text-decoration: none;
+}
+
+.mar-btn {
+  text-align: -webkit-center;
 }/*# sourceMappingURL=pages.css.map */
