@@ -71,6 +71,8 @@ $grey-cont-clr: #eaeaea;
 }
 .mar-btn{
     margin: 20px 20px 40px 20px;
+    display: flex;
+    justify-content: center;
 }
 .button{
     background: linear-gradient(to bottom right, #FF79DA, #9356DC);

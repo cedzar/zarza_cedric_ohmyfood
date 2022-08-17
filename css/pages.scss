@@ -35,6 +35,17 @@ body{
             font-size: 14px;
         }
     }
+    animation: cardFade ease 2s;
+}
+@keyframes cardFade{
+    0%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 .flex-logo{
@@ -99,7 +110,4 @@ body{
     a{
         text-decoration: none;
     }
-}
-.mar-btn{
-    text-align: -webkit-center;
 }
