@@ -4,6 +4,10 @@ $sec-clr: #FF79DA;
 $ter-clr: #99E2D0;
 $grey-cont-clr: #eaeaea;
 
+body{
+    animation: stopScroll ease 0s;
+}
+
 .card-uni{
     background-color: white;
     padding: 10px;
@@ -74,6 +78,7 @@ $grey-cont-clr: #eaeaea;
     width: 100%;
     height: auto;
     padding-bottom: 20px;
+    border-radius: 20px 20px 0 0;
     a{
         text-decoration: none;
     }
