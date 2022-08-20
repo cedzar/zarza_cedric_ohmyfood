@@ -128,12 +128,23 @@ body{
 
 }
 .rest-top-img{
-    background-image: url(/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
     height: 180px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.img-delice{
+    background-image: url(/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+}
+.img-francaise{
+    background-image: url(/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+}
+.img-note{
+    background-image: url(/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+}
+.img-palette{
+    background-image: url(/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
 }
 
 /* Titre Restaurant & like */
@@ -177,6 +188,10 @@ body{
         }
     }
 }
+.section-cont + .section-cont{
+    margin-top: 40px;
+}
+
 .separator-title{
     border: #99E2D0 2px solid;
     max-width: 40px;
