@@ -4,6 +4,23 @@ body {
           animation: stopScroll ease 0s;
 }
 
+.rest-heart-card {
+  cursor: pointer;
+}
+.rest-heart-card i {
+  font-size: 22px;
+}
+.rest-heart-card:active i, .rest-heart-card:hover i, .rest-heart-card:focus i {
+  font-weight: bold;
+  background: -webkit-linear-gradient(#FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mar-btn-large-top {
+  margin-top: 40px;
+}
+
 .card-uni {
   background-color: white;
   padding: 10px;

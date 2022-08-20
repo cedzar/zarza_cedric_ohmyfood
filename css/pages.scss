@@ -7,6 +7,24 @@ $grey-cont-clr: #eaeaea;
 body{
     animation: stopScroll ease 0s;
 }
+.rest-heart-card{
+    cursor: pointer;
+    i{
+        font-size: 22px;
+    }
+
+    &:active, &:hover, &:focus{
+        i{
+            font-weight: bold;
+            background: -webkit-linear-gradient($sec-clr, $pri-clr);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
+.mar-btn-large-top{
+    margin-top: 40px;
+}
 
 .card-uni{
     background-color: white;
