@@ -308,6 +308,9 @@ $grey-cont-clr: #eaeaea;
 }
 
 /* Restaurant */
+.card-container{
+    position: relative;
+}
 .rest-container{
     display: flex;
     flex-direction: column;
@@ -389,6 +392,7 @@ $grey-cont-clr: #eaeaea;
     display: flex;
     flex-direction: column;
     width: 90%;
+    width: calc(100% - 56px);
 }
 .rest-name{
     h5{
@@ -403,7 +407,15 @@ $grey-cont-clr: #eaeaea;
     }
 }
 .rest-heart{
-    width: auto;
+    width: 66px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
     i{
         font-size: 22px;
     }

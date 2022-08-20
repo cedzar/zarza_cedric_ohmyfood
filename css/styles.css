@@ -348,6 +348,10 @@ body {
 }
 
 /* Restaurant */
+.card-container {
+  position: relative;
+}
+
 .rest-container {
   display: flex;
   flex-direction: column;
@@ -437,6 +441,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 90%;
+  width: calc(100% - 56px);
 }
 
 .rest-name h5 {
@@ -450,7 +455,15 @@ body {
 }
 
 .rest-heart {
-  width: auto;
+  width: 66px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
 }
 .rest-heart i {
   font-size: 22px;
