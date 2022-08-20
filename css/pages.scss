@@ -16,6 +16,9 @@ body{
     box-shadow: 0 7px 10px rgb(0 0 0 / 15%);
     color: black;
     opacity: 0;
+    position: relative;
+    animation: cardFade ease 2s forwards;
+    overflow: hidden;
     .card-title{
         font-weight: bold;
         padding-bottom: 5px;
@@ -36,9 +39,30 @@ body{
             font-size: 14px;
         }
     }
-    animation: cardFade ease 2s forwards;
+    .anim-card-validate{
+        position: absolute;
+        top: 0;
+        right: -60px;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: $ter-clr;
+        width: 60px;
+        font-size: 20px;
+        transition: all ease 0.3s;
+        i{
+            transition: all ease 0.6s;
+        }
+    }
+    .card-uni-content{
+        transition: all ease 0.3s;
+        width: 100%;
+    }
 }
-@for $i from 1 through 9 {
+
+@for $i from 1 through 4 {
     .section-cont>a:nth-of-type(#{$i}n)>.card-uni {
         animation-delay: #{$i * 0.3}s;
     }
@@ -116,6 +140,17 @@ body{
     align-items: center;
     a{
         text-decoration: none;
+    }
+    a:hover, a:focus{
+        .anim-card-validate{
+            right: 0;
+            i{
+                transform: rotate(360deg);
+            }
+        }
+        .card-uni-content{
+            width: calc(100% - 60px);
+        }
     }
 }
 .separator-title{
