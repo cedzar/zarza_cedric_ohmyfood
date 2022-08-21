@@ -241,4 +241,24 @@ body {
     margin-right: 40px;
     margin-left: 40px;
   }
+}
+@media screen and (min-width: 992px) {
+  .ttl-like {
+    font-size: 24px;
+  }
+  .rest-heart-card i {
+    font-size: 24px;
+  }
+  .rest-top-img {
+    height: 400px;
+  }
+  .pages-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -60px;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 60px;
+    border-radius: 30px 30px 30px 30px;
+  }
 }/*# sourceMappingURL=pages.css.map */
