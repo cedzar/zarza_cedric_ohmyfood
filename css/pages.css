@@ -222,4 +222,23 @@ body {
   border: #99E2D0 2px solid;
   max-width: 40px;
   margin-top: 5px;
+}
+
+@media screen and (min-width: 640px) {
+  .flex-logo .back-index {
+    width: 45px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    font-size: 25px;
+  }
+  .ttl-like {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .section-cont {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
 }/*# sourceMappingURL=pages.css.map */
